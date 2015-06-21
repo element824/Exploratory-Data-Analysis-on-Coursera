@@ -1,0 +1,5 @@
+library(plyr)
+library(ggplot2)
+unzip("data/exdata-data-NEI_data.zip", exdir = "data" )
+NEI <- readRDS("data//summarySCC_PM25.rds")
+SCC <- readRDS("data//Source_Classification_Code.rds")
